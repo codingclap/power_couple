@@ -57,7 +57,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 67%;
-  padding: 7% 0;
+  padding: 7% 10px;
 }
 .life-path {
   padding-bottom: 4%;
@@ -312,7 +312,7 @@ body {
 	padding-top: 40px;
 }
 .power-couples .pow-coup-head {
-  padding: 25% 0;
+  padding: 25% 10px;
   background-position: bottom center;
 background-size: 100%;
 }
@@ -391,7 +391,7 @@ background-size: 100%;
   margin-bottom: 18px;
 }
 .power-couples .pow-coup-head {
-	padding: 22% 0;
+	padding: 22% 10px;
 }
 }
 
