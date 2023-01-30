@@ -1,4 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/daaf7e1dffe4ec230866bb0ad8c7c245?family=Museo+Sans+300);
 @font-face {
   font-family: "Cabin-SemiBold";
   src: url('fonts/Cabin-SemiBold.ttf');
@@ -33,6 +32,16 @@
        url('fonts/MuseoSans.otf') format('otf'),
        url('fonts/MuseoSans.otf') format('truetype');
 }
+
+@font-face {
+  font-family: "Museo Sans 300";
+  src: url('fonts/MuseoSans-300.otf');
+  src: url('fonts/MuseoSans-300.otf') format('embedded-opentype'),
+       url('fonts/MuseoSans-300.otf') format('otf'),
+       url('fonts/MuseoSans-300.otf') format('otf'),
+       url('fonts/MuseoSans-300.otf') format('truetype');
+}
+
 html{
 	font-size: 100%;
 }
