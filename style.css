@@ -1,0 +1,354 @@
+@import url(//db.onlinewebfonts.com/c/daaf7e1dffe4ec230866bb0ad8c7c245?family=Museo+Sans+300);
+@font-face {
+  font-family: "Cabin-SemiBold";
+  src: url('fonts/Cabin-SemiBold.ttf');
+  src: url('fonts/Cabin-SemiBold.ttf') format('embedded-opentype'),
+       url('fonts/Cabin-SemiBold.ttf') format('ttf'),
+       url('fonts/Cabin-SemiBold.ttf') format('ttf'),
+       url('fonts/Cabin-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Cabin-Regular";
+  src: url('fonts/Cabin-Regular.ttf');
+  src: url('fonts/Cabin-Regular.ttf') format('embedded-opentype'),
+       url('fonts/Cabin-Regular.ttf') format('ttf'),
+       url('fonts/Cabin-Regular.ttf') format('ttf'),
+       url('fonts/Cabin-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url('fonts/DancingScript-VariableFont_wght.ttf');
+  src: url('fonts/DancingScript-VariableFont_wght.ttf') format('embedded-opentype'),
+       url('fonts/DancingScript-VariableFont_wght.ttf') format('ttf'),
+       url('fonts/DancingScript-VariableFont_wght.ttf') format('ttf'),
+       url('fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: "MuseoSans";
+  src: url('fonts/MuseoSans.otf');
+  src: url('fonts/MuseoSans.otf') format('embedded-opentype'),
+       url('fonts/MuseoSans.otf') format('otf'),
+       url('fonts/MuseoSans.otf') format('otf'),
+       url('fonts/MuseoSans.otf') format('truetype');
+}
+html{
+	font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+}
+.power-couples .wrapper {
+  width: 98%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tex-white {
+	color: #fff ! important;
+}
+
+.power-couples .pow-coup-head {
+  background-image: url('assets/header-banner.svg');
+  background-color: #C93F3F;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 67%;
+  padding: 80px 0;
+}
+.power-couples .header-power h1 {
+  margin-top: 0;
+  font-size: 10rem;
+  font-family: "DancingScript";
+  line-height: 140px;
+  margin-bottom: 70px;
+}
+.power-couples .header-power {
+  width: 100%;
+  max-width: 465px;
+}
+
+.power-couples .header-power p {
+  margin: 0;
+  font-size: 38px;
+  font-family: "MuseoSans";
+  width: 100%;
+  max-width: 310px;
+}
+.power-couples .your-life {
+  background-color: #3B8AAC;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 67%;
+  padding: 80px 0;
+  position:relative;
+}
+.your-life p {
+  font-family: "Museo Sans 300";
+  font-size: 28px;
+  text-align: center;
+  padding: 0 13%;
+  line-height: 35px;
+  position: relative;
+}
+
+.power-couples .your-life p::before {
+  background-image: url('assets/left-leaf.svg');
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: 0;
+  background-repeat: no-repeat;
+  top: 0;
+}
+.power-couples .your-life p::after {
+  background-image: url('assets/right-leaf.svg');
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+}
+.power-couples .your-life::after {
+  background-image: url('assets/bubble-01.svg');
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  background-repeat: no-repeat;
+  bottom: -34px;
+  background-size: 100%;
+}
+
+.power-couples .your-life::before {
+  background-image: url('assets/bubble-01.svg');
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: -32px;
+}
+.power-couples  .seril-img img {
+  width: 100%;
+  max-width: 200px;
+  position: relative;
+  z-index: 99;
+  margin: -75px 0 0 0;
+  text-align: center;
+}
+.power-couples .seril-img {
+  text-align: center;
+}
+.power-couples .path-desc img {
+  width: 100%;
+  max-width: 300px;
+}
+.power-couples .pathimg {
+  width: 100%;
+  max-width: 35%;
+  float: left;
+}
+.power-couples .path-desc {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+.power-couples .pathdesc {
+  font-size: 30px;
+  width: 100%;
+  color: #4C1C1C;
+  font-family: "Cabin-SemiBold";
+  padding: 0 4% 0 4%;
+}
+.power-couples .life-sign img {
+  width: 100%;
+  max-width: 110px;
+  margin-top: 25px;
+}
+.power-couples .life-sign {
+  width: 100%;
+  max-width: 20%;
+  float: left;
+}
+.power-couples .life-desc {
+  width: 100%;
+  max-width: 80%;
+  float: left;
+}
+.power-couples .life-desc p {
+  font-size: 25px;
+  color: #4C1C1C;
+  font-family: "Cabin-Regular";
+  margin-bottom: 0;
+}
+.power-couples .path-desc.sin-life {
+  margin-top: 5%;
+}
+.power-couples .pat-sign {
+  padding: 0 5%;
+}
+.whole-number-2 {
+  background-color: #FEF1F3;
+  padding: 70px 0 100px 0;
+}
+.power-couples .seril-img.bott-two img{
+	margin: 0px 0 -85px 0;
+}
+
+.your-life.skilled-psychic p{
+	padding: 0 0;
+}
+.power-couples .your-life.skilled-psychic p::before{
+	background-image: unset;
+	content: unset;
+	position: unset;
+}
+.power-couples .your-life.skilled-psychic p::after{
+	background-image: unset;
+	content: unset;
+	position: unset;
+}
+.power-couples .your-life.skilled-psychic::after {
+
+	height: 27%;
+}
+.your-life.skilled-psychic {
+  margin-top: 80px;
+}
+.power-couples .your-life.skilled-psychic{
+	padding: 40px 0;
+}
+.power-couples .psy img {
+  width: 100%;
+  max-width: 420px;
+  margin: 70px 0px 40px auto;
+}
+.power-couples .psy {
+  background-color: #CBEEF4;
+  text-align: center;
+}
+.power-couples {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 875px) {
+.power-couples .header-power h1 {
+  line-height: 70px;
+  font-size: 100px;
+}
+.power-couples .header-power p {
+  font-size: 30px;
+  max-width: 100%;
+}
+.power-couples .header-power {
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+}
+.power-couples .pathimg {
+  width: 100%;
+  max-width: 100%;
+  float: unset;
+  text-align: center;
+	margin-top: 25px;
+}
+.power-couples .path-desc {
+  display: unset;
+}
+.power-couples .pathdesc {
+	padding: 0;
+}
+.power-couples .seril-img img {
+  width: 100%;
+  max-width: 170px;
+}
+.power-couples .pathdesc {
+  font-size: 24px;
+  line-height: 28px;
+}
+.power-couples .life-desc p {
+  font-size: 20px;
+}
+.power-couples .life-sign {
+  max-width: 100%;
+  float: unset;
+  text-align: center;
+}
+.power-couples .life-desc {
+  max-width: 100%;
+  float: unset;
+}
+.whole-number-2 .life-path {
+  padding-top: 20px;
+}
+.life-path {
+  padding: 0 10px;
+}
+.your-life p{
+	font-size: 22px;
+	line-height: 25px;
+}
+.power-couples .your-life::before {
+  background-image: unset;
+  content: unset;
+  position: unset;
+}
+.power-couples .your-life::after {
+	  background-image: unset;
+  content: unset;
+  position: unset;
+}
+.power-couples .your-life{
+	padding-top: 40px;
+}
+.power-couples .pow-coup-head {
+  padding: 25% 0;
+  background-position: bottom center;
+background-size: 100%;
+}
+.pow-coup-head::after {
+  background-color: #0000004d;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.pow-coup-head{
+	position: relative;
+}
+.power-couples .your-life p::before, .power-couples .your-life p::after {
+  background-image: unset;
+  content: unset;
+  position: unset;
+}
+.your-life p{
+	padding: 0 5%;
+}
+}
+
+@media screen and (max-width: 530px) {
+.power-couples .header-power p {
+  font-size: 22px;
+  max-width: 100%;
+}
+.power-couples .header-power h1 {
+  line-height: 70px;
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+.power-couples .pow-coup-head {
+	padding: 22% 0;
+}
+}
